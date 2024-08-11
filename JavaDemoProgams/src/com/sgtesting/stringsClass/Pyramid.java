@@ -2,21 +2,10 @@ package com.sgtesting.stringsClass;
 
 public class Pyramid {
     public static void main(String[] args) {
-        pyramidProgFor1();
-        pyramidProg();
+       pyramidProg();
        pyramidProg2();
     }
-    static void pyramidProgFor1(){
-        String str = "PROGRAM";
-        char[] newstr=str.toCharArray();
-        String result="";
-        for(int i=0;i<newstr.length;i++){
-            result+=newstr[i]+" ";
-                System.out.println(result);
-            }
-            System.out.println();
-        System.out.println("**********************************************");
-        }
+
     static void pyramidProg(){
         String S="PROGRAM";
         for(int i=0;i<S.length();i++){
